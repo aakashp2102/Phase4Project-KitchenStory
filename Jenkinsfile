@@ -19,7 +19,7 @@ node(){
     }
 
     stage('Package Build') {
-        sh "tar -zcvf bundle.tar.gz dist/Phase4Project-KitchenStory/"
+        sh "tar -zcvf bundle.tar.gz dist/KitchenStory/"
     }
 
     stage('Artifacts Creation') {
